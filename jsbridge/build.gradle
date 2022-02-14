@@ -37,6 +37,6 @@ android {
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
 
-    api "${deps.tbs}"
-    api "com.google.android.material:material:1.0.0"
+    api deps.tbs
+    api deps.design
 }
