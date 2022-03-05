@@ -9,6 +9,7 @@ import android.os.Looper;
 import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.Gravity;
 import android.widget.AbsoluteLayout;
 import android.widget.ProgressBar;
@@ -270,6 +271,7 @@ public class XxtBridgeWebView extends WebView implements WebViewJavascriptBridge
 							} else {
 								handler = defaultHandler;
 							}
+							Log.d("jsbridge", "接收到桥接："+m.getHandlerName()+"\n参数："+String.valueOf(m.getData()));
 							if (handler != null){
 								handler.handler(m.getData(), responseFunction);
 								try {
