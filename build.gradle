@@ -153,7 +153,7 @@ tinkerAnnoSupport:'com.tencent.tinker:tinker-android-anno-support:1.9.14.17',
 qmui:"com.qmuiteam:qmui:$QMUI_VERSION",
 qmuiArch:"com.qmuiteam:arch:$QMUI_VERSION",
 qmuiArchCompiler:"com.qmuiteam:arch-compiler:$QMUI_VERSION",
-tbs:'com.tencent.tbs.tbssdk:sdk:44176',
+tbs:'com.tencent.tbs:tbssdk:44181',
 
 videocache:'com.danikula:videocache:2.7.1',
 
